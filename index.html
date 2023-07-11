@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Blog</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Mike Leontev</a>
+    </div>
+    
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="#travel">TRAVEL</a></li>
+        <li><a href="#movies">MOVIES</a></li>
+        <li><a href="#books">BOOKS</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </div>
+
+</nav>
+<div class="container">
+  <h1 class="page-header" id="travel">Places you must visit</h1>
+  <center>
+    <div class="travel_mainDiv">
+      <img src="golden_gate.jpg">
+      <h3 class="text-capitalize"><kbd>Golden gate bridge</kbd></h3>
+      <hr>
+      <h5 class="text-primary text-capitalize">i visited this place in 2023</h5>
+      <p class="text-danger">The Golden Gate Bridge is a suspension bridge spanning the Golden Gate, 
+        the one-mile-wide (1.6 km) strait connecting San Francisco Bay and the 
+        Pacific Ocean. The structure links the U.S. city of San Francisco, 
+        California—the northern tip of the San Francisco Peninsula—to Marin County,
+         carrying both U.S. Route 101 and California State Route 1 across the strait.
+          It also carries pedestrian and bicycle traffic, and is designated as part 
+          of U.S. Bicycle Route 95. Recognized by the American Society of Civil 
+          Engineers as one of the Wonders of the Modern World, the bridge is 
+          one of the most internationally recognized symbols of San Francisco and California.</p>
+    </div>
+  </center>
+  <br><br>
+  <hr id="line">
+  <center>
+    <div class="travel_mainDiv">
+      <img src="uneversal.avif">
+      <h3 class="text-capitalize"><kbd>universal studios hollywood</kbd></h3>
+      <hr>
+      <h5 class="text-primary text-capitalize">i visited this place in 2022</h5>
+      <p class="text-danger">Universal Studios Hollywood is a film studio and theme park in
+         the San Fernando Valley area of Los Angeles County, California. About 70% of the
+          studio lies within the unincorporated county island known as Universal City while
+           the rest lies within the city limits of Los Angeles, California. It is one of the 
+           oldest and most famous Hollywood film studios still in use. Its official marketing 
+           headline is "The Entertainment Capital of LA". It was initially created to offer
+            tours of the real Universal Studios sets and is the first of many full-fledged 
+            Universal Studios Theme Parks located across the world.</p>
+            
+    </div>
+  </center>
+  <h1 class="page-header" id="movies">Review on the Movies </h1>
+  <div class="bg-primary movie_head" data-toggle="collapse" data-target="#guardians_of_the_galaxy_vol_3" >
+    <span class="glyphicon glyphicon-film"></span>Guardians of the galaxy vol3<i class="fa fa-sort-desc"></i>
+  </div>
+  <div id="guardians_of_the_galaxy_vol_3" class="collapse">
+    <div class="movie_text">
+      <img src="guardians.jpg" class="img-responsive img-thumbnail">
+      <h5 class="text-success text-capitalize">best movie with VFX
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+      </h5>
+      <p>
+             Whether this movie is truly great or just miles better than the lackluster other recent MCU films remains to be determined. Regardless, this is a breath of fresh air and an all-around satisfying movie.
+        
+        </p>
+    </div>
+  </div>
+  <br>
+  <div class="bg-primary movie_head" data-toggle="collapse" data-target="#spiderman_homecoming" >
+    <span class="glyphicon glyphicon-film"></span>Spiderman homecoming<i class="fa fa-sort-desc"></i>
+  </div>
+  <div id="spiderman_homecoming" class="collapse">
+    <div class="movie_text">
+      <img src="spider man.jpeg" class="img-responsive img-thumbnail">
+      <h5 class="text-success text-capitalize">best spiderman movie
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+      </h5>
+      <p>
+        Spider-Man: Homecoming does whatever a second reboot can, delivering a colorful, fun adventure that fits snugly in the sprawling MCU without getting bogged down in franchise-building.
+        
+        </p>
+    </div>
+  </div>
+  <h2 class="page-header" id="books">List Of Books</h2>
+  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+    <img src="wonkenstien.jpg" class="img-responsive" id="book">
+    <hr>
+    <a href="https://www.amazon.com/Wonkenstein-Creature-My-Closet-No/dp/0805092684" target="_blank">Wonkenstien creature fom my closet</a>
+
+  </div>
+  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+    <img src="harry_potter.jpg" class="img-responsive" id="book">
+    <hr>
+    <a href="https://www.amazon.com/Harry-Potter-Order-Phoenix-Book/dp/043935806X" target="_blank">Harry Potter order of the phoenix</a>
+
+  </div>
+</div>
+  <br><br>  
+  <section id="contact">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3116.384278394327!2d-121.32874962425345!3d38.640043571780105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ade9951b72f7f%3A0x3b6b1383bc01e29a!2s5944%20Lincoln%20Ave%2C%20Carmichael%2C%20CA%2095608!5e0!3m2!1sru!2sus!4v1688518125717!5m2!1sru!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <hr>
+    <img src="profile.gif" class="img-responsive img-circle col-lg-3 col-md-3 col-sm-3 col-xs-4" id="logo">
+        <h3>Mike Leontev</h3>
+        <div class="contact_1" >
+
+           <a href="mailto:leontevmike1@gmail.com?Subject=Hi">
+               <h5><i class="fa fa-envelope"></i>&nbsp;&nbsp;leontevmike1@gmail.com</h5>
+            </a> 
+                                          
+           <a href="#"> 
+               <h5><i class="fa fa-instagram" ></i>&nbsp;&nbsp;myinstagramid</h5>
+            </a> 
+        </div>
+</section>
+
+
+</body>
+</html>
